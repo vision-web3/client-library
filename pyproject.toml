@@ -19,20 +19,20 @@ include = ["vision"]
 namespaces = true
 
 [tool.poetry.group.test.dependencies]
-pytest = "8.3.5"
-pytest-cov = "6.1.1"
+pytest = "9.0.3"
+pytest-cov = "7.1.0"
 
 [tool.poetry.group.lint.dependencies]
-bandit = "1.8.3"
-flake8 = "7.2.0"
-isort = "6.0.1"
-mypy = "1.0.1"
+bandit = "1.9.4"
+flake8 = "7.3.0"
+isort = "8.0.1"
+mypy = "1.20.1"
 types-pyyaml = "6.0.12.20250402"
 types-requests = "2.32.0.20250328"
 yapf = "0.43.0"
 
 [tool.poetry.group.dev.dependencies]
-pre-commit = "4.2.0"
+pre-commit = "4.6.0"
 
 [tool.poetry.dependencies]
 vision-common = "0.3.1"
